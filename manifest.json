@@ -1,0 +1,16 @@
+{
+  "name": "Donate Round-off",
+  "description": "Suggest round-off donation at checkout",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+  "*://*.amazon.in/*",
+  "*://*.amazon.com/*"
+]
+,
+      "js": ["content.js"]
+    }
+  ]
+}
